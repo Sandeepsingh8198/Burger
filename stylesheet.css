@@ -1,0 +1,445 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+    background-image: url("images/hero-bg.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+  padding: 15px 0;
+  height: 88px;
+}
+.container {
+  max-width: 1140px;
+  margin: auto;
+  padding: 0 20px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.navbar-brand span {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 48px;
+  color: #ffffff;
+  font-family: "Dancing Script";
+}
+.nav-item a {
+  text-decoration: none;
+  color: #ffffff !important;
+  font-size: 16px;
+  margin-left: 30px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
+/* .navbar-nav .nav-link:hover {
+  color: #ffbe33 !important;
+}
+.navbar-nav .nav-link:active {
+  color: #ffbe33 !important;
+} */
+
+ .nav-link.active {
+  color: #ffc107 !important;
+  font-weight: 600;
+  border-bottom: 2px solid #ffc107;
+}
+
+
+.icon a {
+  color: #ffffff !important;
+  font-size: 16px;
+  margin-left: 20px;
+}
+.icon a:hover {
+  color: #ffbe33 !important;
+}
+.button {
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #ffbe33;
+  color: #ffffff;
+  border-radius: 45px;
+  transition: all 0.3s;
+  display: inline-block;
+  padding: 8px 30px;
+  border: none;
+}
+
+.button a {
+  text-decoration: none;
+  color: #fff;
+}
+.button:hover {
+  background-color: #ce9314;
+  color: #ffffff;
+  text-decoration: none;
+}
+/* section */
+.section1 {
+  display: flex;
+  align-items: center;
+  padding: 45px 0 7px 0;
+  justify-content: center;
+}
+.left {
+  padding-top: 45px;
+}
+.left h1 {
+  font-size: 48px;
+  line-height: 64px;
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-family: "Dancing Script";
+}
+.left p {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 30px;
+  font-family: "Open Sans", sans-serif;
+}
+/* section 2 */
+.sub-main {
+  margin: 0px;
+  padding-block: 80px;
+}
+.first {
+  display: flex;
+  background-color: #222831;
+  padding: 20px;
+  border-radius: 5px;
+}
+.Burger {
+  border: 3px solid #ffbe33;
+  border-radius: 100px;
+}
+.bill {
+  color: #ffffff;
+  padding: 0 10px;
+}
+.bill h2 {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 500;
+  font-family: "Dancing Script";
+}
+.bill span {
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 700;
+  font-family: "Dancing Script";
+}
+.bill h3 {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  font-family: "Dancing Script";
+}
+/* section3 */
+.sub-main2 {
+  padding: 0 0 90px 0;
+}
+.sub-main2 h1 {
+  text-align: center;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 700;
+  color: #000 !important;
+  font-family: "Dancing Script";
+}
+.tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tabs  .nav-link {
+  color: #000;
+}
+.tabs  .nav-link:hover {
+  color: #ffffff !important;
+}
+.tabs  .nav-item {
+  padding: 7px 10px;
+}
+ .tabs .nav-item :hover {
+  background-color: #222831 !important;
+  color: #ffffff !important;
+  border-radius: 25px;
+}
+.tabs  .nav-item:active {
+  background-color: #222831 !important;
+  padding: 7px 25px;
+  border-radius: 25px;
+}
+/* all */
+.box {
+  margin-top: 25px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  color: #ffffff;
+  border-radius: 15px;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #f1f2f3 25px, #222831 25px);
+}
+.option {
+  display: flex;
+  justify-content: space-between;
+}
+.image-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f6f6;
+}
+.all {
+  width: 200px;
+  height: 190px;
+  padding: 25px;
+}
+.detail {
+  background-color: #222831;
+  padding: 25px;
+}
+.detail h2 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  font-family: "Open Sans", sans-serif;
+}
+.detail h2 {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
+  font-family: "Open Sans", sans-serif;
+}
+.button-view {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 55px;
+  background-color: #ffbe33 !important;
+  color: #ffffff !important;
+  border-radius: 45px;
+  border: none;
+}
+.button-view a {
+  text-decoration: none;
+  color: #fff;
+}
+.button-view:hover :focus {
+  background-color: #ce9314 !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+/* section 4 */
+.sub-main3 {
+  background-color: #222831;
+}
+.about-section {
+  padding-block: 90px;
+}
+.about {
+  width: 445px;
+  height: 607px;
+}
+.about-detail {
+  margin: auto;
+  padding-top: 30%;
+}
+.about-detail h2 {
+  color: #e2e1e1;
+  margin-bottom: 0;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Dancing Script";
+}
+.about-detail p {
+  color: #e2e1e1;
+  margin-top: 15px;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
+/* section5 */
+.sub-main4 {
+  margin: 0;
+  padding-block: 90px;
+}
+.caption h2 {
+  font-family: "Dancing Script";
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 700;
+  color: #0c0c0c;
+}
+.control-form {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 25px;
+  padding-left: 25px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26;
+  color: #000000;
+  outline: none;
+  box-shadow: none;
+  background-color: #fff;
+  border: 1px solid #999;
+  border-radius: 5px;
+}
+.maps {
+  width: 555px;
+  height: 345px;
+  border-radius: 50px !important;
+  border: 1 solid rgba(255, 255, 255, 0);
+}
+/* section 6 */
+.sub-main5 h1 {
+  text-align: center;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 700;
+  color: #000 !important;
+  font-family: "Dancing Script";
+}
+.testimonials {
+  width: 500px;
+}
+.content {
+  background-color: #222831;
+  color: #ffffff;
+  padding: 25px 25px 15px 25px;
+  border-radius: 5px;
+}
+.content-img {
+  padding-block: 20px;
+}
+.client {
+  width: 115px !important;
+  height: 115px !important;
+  border-radius: 100%;
+  content: "";
+  border: 10px solid #ffbe33;
+}
+
+.owl-nav {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.owl-nav button {
+  width: 45px;
+  height: 45px;
+  border-radius: 100% !important;
+  background: #fdb44b !important;
+  color: #ffffff !important;
+  font-size: 22px !important;
+  margin: 0 8px;
+  transition: 0.3s;
+}
+
+.owl-nav button:hover {
+  background: #e09b2d !important;
+}
+
+.owl-nav button span {
+  font-size: 20px;
+  line-height: 1;
+}
+.owl-carousel .owl-dots.disabled,
+.owl-carousel .owl-nav.disabled {
+  display: block;
+}
+/* footer */
+.main2 {
+  background-color: #222831;
+  margin: 0;
+  padding: 75px 0 40px;
+}
+.contact p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #dbdbdb;
+  text-align: center;
+}
+.contact h2 {
+  font-family: "Dancing Script";
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+}
+.contact_list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact_list a {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #dbdbdb;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 0;
+}
+.contact_list a:hover {
+  color: #ffbe33 !important;
+}
+.social_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social_icon a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #222831;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: #ffffff;
+  border-radius: 100%;
+  margin: 0 2.5px;
+  font-size: 18px;
+}
+.social_icon a:hover {
+  color: #ffbe33 !important;
+}
+.condition {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #dbdbdb;
+  text-align: center;
+  margin: 5px 0;
+}
+.condition a {
+  color: #dbdbdb;
+  text-decoration: none;
+}
+/* pages background */
+.menus {
+  background-color: #fff;
+}
+ .button-view:hover {
+    background: #e69c00 !important;
+}
